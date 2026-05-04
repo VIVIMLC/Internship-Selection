@@ -8,7 +8,7 @@ The goal is to identify key factors that influence internship selection and prov
 ---
 
 ## 🌐 Live Project Website
-👉 https://vivimlc.github.io/Internship-Selection/
+👉 [https://vivimlc.github.io/Internship-Selection/](https://vivimlc.github.io/Internship-Selection/)
 
 ---
 

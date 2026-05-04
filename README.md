@@ -1,94 +1,141 @@
-# Internship Selection Prediction Project
+# 🚀 Internship Selection Prediction Project
 
-## Project Summary
-This project uses predictive analytics to determine whether a student is likely to be selected for an internship based on academic performance, technical skills, experience, and interview-related factors.
+## 📌 Project Overview
+This project applies predictive analytics and machine learning to analyze and predict whether a student will be selected for an internship. The analysis follows a complete data science workflow, including data exploration, preprocessing, modeling, and insight generation.
 
-## Project Objectives
-- Explore and clean the internship selection dataset
-- Identify key factors that influence internship selection
-- Build and compare predictive models
-- Evaluate model performance using classification metrics
-- Generate insights and recommendations for students and recruiters
-- Reflect on ethical considerations in hiring-related predictions
+The goal is to identify key factors that influence internship selection and provide actionable recommendations for students, recruiters, and universities.
 
-## Dataset Description and Source
-Internship Selection Dataset
-Source: Included in project repository (/data/Internship_Selection_Dataset.csv)
+---
 
-## Rationale
+## 🌐 Live Project Website
+👉 https://vivimlc.github.io/Internship-Selection/
 
-The Internship Selection Dataset was chosen because it represents a realistic and highly relevant business problem: predicting whether a candidate will be selected for an internship. Organizations today increasingly rely on data-driven approaches to evaluate candidates, considering multiple dimensions such as academic performance, technical skills, experience, and soft skills. This dataset captures these key attributes, including variables like CGPA, coding test scores, interview performance, projects, internships, and communication skills, making it well-suited for predictive modeling.
+---
 
-Additionally, the dataset is non-trivial due to its size (10,000 observations) and the diversity of features, including both numerical and categorical variables. This complexity allows for meaningful exploratory data analysis, data preprocessing, and the application of multiple machine learning models. The dataset supports the development of actionable insights that can help students understand how to improve their employability and assist organizations in making more informed and efficient hiring decisions.
-
-## Exploratory Data Analysis (EDA)
-Objective
-
-The goal of the exploratory data analysis (EDA) is to understand the structure of the dataset, identify patterns and relationships between variables, and detect any issues such as outliers or imbalances that may affect modeling decisions.
-
-It contains student-level information such as:
-- CGPA
-- Skills score
-- Projects completed
-- Internships completed
-- Coding test score
-- Interview score
-- GitHub score
-- College tier
-- Placement training
-- Selection outcome
-
-**Target variable:** `selected`  
-- `1` = Selected  
-- `0` = Not selected  
-
-Dataset source: Included in this repository under the `/data` folder.
-
-## Tools and Libraries Used
-- Python
-- Google Colab
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-learn
-
-## Google Colab Notebook
-You can open and run the full analysis here:
+## 🚀 Run the Project in Google Colab
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](Internship_Selection_Model.ipynb)
 
-Direct link: [Internship Selection Colab Notebook](Internship_Selection_Model.ipynb)
+👉 Direct Link: Internship_Selection_Model.ipynb
 
-## How to Run the Project
-1. Open the Google Colab notebook using the link above.
-2. Upload the dataset file: `Internship_Selection_Dataset.csv`.
-3. Run each code cell from top to bottom.
-4. Review the outputs, including:
-   - Data cleaning results
-   - EDA visualizations
-   - Model performance table
-   - Confusion matrix
-   - Feature importance chart
+This notebook includes:
+- Data cleaning and preprocessing  
+- Exploratory Data Analysis (EDA)  
+- Predictive modeling (Logistic Regression, Random Forest, Gradient Boosting)  
+- Model evaluation and insights  
 
-## Repository Structure
-```text
-Internship-Selection-Prediction/
-│
-├── data/
-│   └── Internship_Selection_Dataset.csv
-│
-├── notebooks/
-│   └── Internship_Selection_Model.ipynb
-│
-├── visuals/
-│   ├── model_comparison.png
-│   ├── confusion_matrix.png
-│   └── feature_importance.png
-│
-├── report/
-│   └── final_report.pdf
-│
-├── README.md
-├── requirements.txt
-└── .gitignore
+---
+
+## 🎯 Project Objectives
+- Explore and clean the dataset  
+- Identify factors that influence internship selection  
+- Build and compare predictive models  
+- Evaluate model performance using classification metrics  
+- Generate business insights and recommendations  
+- Reflect on ethical implications of predictive models  
+
+---
+
+## 📊 Dataset Description
+The dataset contains 10,000 student records with features such as:
+
+- Academic Performance (CGPA)  
+- Technical Skills (coding test score, GitHub score, skills score)  
+- Experience (projects, internships)  
+- Soft Skills (interview score, communication)  
+- Engagement (LinkedIn activity, extracurriculars)  
+- Institutional factors (college tier, placement training)  
+
+**Target Variable:**
+- `selected`  
+  - 1 = Selected  
+  - 0 = Not Selected  
+
+📁 Dataset is included in `/data` folder
+
+---
+
+## 🔍 Project Workflow
+
+### 1. Exploratory Data Analysis (EDA)
+- Visualized distributions and relationships  
+- Identified key predictors and trends  
+
+### 2. Data Cleaning & Preprocessing
+- Removed irrelevant features (student_id)  
+- Encoded categorical variables  
+- Scaled numerical features  
+- Split data into training and testing sets  
+
+### 3. Predictive Modeling
+Models used:
+- Logistic Regression  
+- Random Forest  
+- Gradient Boosting  
+
+### 4. Model Evaluation
+Metrics used:
+- Accuracy  
+- Precision  
+- Recall  
+- F1 Score  
+- ROC-AUC  
+
+---
+
+## 📈 Key Insights
+- **Interview score** is the strongest predictor of selection  
+- **Coding skills** significantly impact outcomes  
+- **Projects and internships** increase selection chances  
+- **CGPA has moderate influence**, but is not the most important factor  
+
+---
+
+## 💡 Business Recommendations
+
+### For Students
+- Improve coding and technical skills  
+- Practice interview performance  
+- Build a strong project portfolio  
+- Gain real-world experience  
+
+### For Recruiters
+- Focus on practical skills and interview performance  
+- Use structured evaluation criteria  
+- Consider predictive tools for screening  
+
+---
+
+## ⚖️ Ethics & Considerations
+- Some variables (e.g., college tier) may introduce bias  
+- Models should support—not replace—human decisions  
+- Transparency and fairness must be prioritized  
+
+---
+
+## 📁 Repository Structure
+
+---
+
+## 🛠️ Tools & Technologies
+- Python  
+- Google Colab  
+- Pandas, NumPy  
+- Scikit-learn  
+- Matplotlib, Seaborn  
+
+---
+
+## 📄 Final Report
+The complete business report is available in the `/report` folder.
+
+---
+
+## 👩‍💻 Author
+**Viviana Leyva**  
+ISOM 835 – Predictive Analytics and Machine Learning  
+
+---
+
+## 🚀 Project Goal
+This project demonstrates how predictive analytics can be applied to real-world hiring scenarios, helping stakeholders make better, data-driven decisions.

@@ -12,7 +12,19 @@ This project uses predictive analytics to determine whether a student is likely 
 - Reflect on ethical considerations in hiring-related predictions
 
 ## Dataset Description and Source
-The dataset used is `Internship_Selection_Dataset.csv`.
+Internship Selection Dataset
+Source: Included in project repository (/data/Internship_Selection_Dataset.csv)
+
+## Rationale
+
+The Internship Selection Dataset was chosen because it represents a realistic and highly relevant business problem: predicting whether a candidate will be selected for an internship. Organizations today increasingly rely on data-driven approaches to evaluate candidates, considering multiple dimensions such as academic performance, technical skills, experience, and soft skills. This dataset captures these key attributes, including variables like CGPA, coding test scores, interview performance, projects, internships, and communication skills, making it well-suited for predictive modeling.
+
+Additionally, the dataset is non-trivial due to its size (10,000 observations) and the diversity of features, including both numerical and categorical variables. This complexity allows for meaningful exploratory data analysis, data preprocessing, and the application of multiple machine learning models. The dataset supports the development of actionable insights that can help students understand how to improve their employability and assist organizations in making more informed and efficient hiring decisions.
+
+## Exploratory Data Analysis (EDA)
+Objective
+
+The goal of the exploratory data analysis (EDA) is to understand the structure of the dataset, identify patterns and relationships between variables, and detect any issues such as outliers or imbalances that may affect modeling decisions.
 
 It contains student-level information such as:
 - CGPA

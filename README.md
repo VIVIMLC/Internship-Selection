@@ -14,7 +14,7 @@ The goal is to identify key factors that influence internship selection and prov
 
 ## 🚀 Run the Project in Google Colab
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([Internship_Selection_Model.ipynb](https://colab.research.google.com/drive/1DtuP3Sog7xzz1sUGCDMp4bi7ky1wek_e?usp=sharing))
+[![Open In Colab](https://colab.research.google.com/drive/1DtuP3Sog7xzz1sUGCDMp4bi7ky1wek_e?usp=sharing))
 
 👉 Direct Link: Internship_Selection_Model.ipynb
 
